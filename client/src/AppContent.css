@@ -1,0 +1,42 @@
+.gotoPost {
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+  position: absolute;
+  top: 10%;
+  font-size: 20px;
+}
+.appContent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.appContent > h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #111;
+}
+
+.appContent > input[type="text"] {
+  margin-bottom: 10px;
+  border: 1px solid;
+  margin-top: 10px;
+  padding: 10px;
+  outline-width: 0;
+}
+
+.appContent > button {
+  background-color: #08f;
+  overflow: hidden;
+  border: 0;
+  padding: 8px;
+  color: white;
+}
+
+.appContent .white {
+  color: white !important;
+}
